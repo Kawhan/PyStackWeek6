@@ -41,3 +41,13 @@ def novo_evento(request):
         messages.add_message(request, constants.SUCCESS,
                              'Evento cadastrado com sucesso')
         return redirect(reverse('novo_evento'))
+
+
+def gerenciar_evento(request):
+    if request.method == "GET":
+        nome = request.GET.get('nome')
+        eventos = Evento.objects.filter(criador=request.user)
+        if nome:
+            eventos = eventos.filter(nome__contains=nome)
+
+        return render(request, 'gerenciar_evento.html', {'eventos': eventos})
