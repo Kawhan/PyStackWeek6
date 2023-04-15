@@ -1,4 +1,4 @@
-<h1 align="center">PyStackWeek6 </h1>
+<h1 align="center">TypeEvent </h1>
 
 ## 🖥️ Descrição do projeto 
 
