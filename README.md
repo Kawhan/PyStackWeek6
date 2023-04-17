@@ -2,7 +2,7 @@
 
 ## 🖥️ Descrição do projeto 
 
-Sistema de cadastro de vagas que permite que pessoas cadastrem eventos na plataforma e disponibilizem para pessoas se inscreverem neles, nesse mesmo sistema possui um gerenciamento de certificados e csvs gerados. Por fim, possui também um sistema de login e registro para usuários da plataforma.
+Sistema de cadastro de vagas que permite que pessoas cadastrem eventos na plataforma e disponibilizem para pessoas se inscreverem neles, nesse mesmo sistema possui um gerenciamento de certificados e csvs gerados. Por fim, possui também um sistema de login e registro para usuários da plataforma. Feito dentro na semana pystack week
 
 ## 🖥️ Project description
 Vacancy registration system that allows people to register events on the platform and make them available for people to register for them, in this same system it has a management of certificates and generated csvs. Finally, it also has a login and registration system for platform users.
